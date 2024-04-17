@@ -1,0 +1,10 @@
+# docker 
+export DOCKER_DIR=/srv/project
+export DOCKER_EXEC="docker compose exec mysql"
+
+# backup server and mount
+export BACKUP_SERVER='//cifs2/path/pimcore'
+export BACKUP_SERVER_CREDENTIALS=/root/.smbclient
+export BACKUP_PATH=/srv/backup/project
+export BACKUP_PATH_TMP=/srv/backup/storage-project.tmp
+export BACKUP_PATH_SAVE=/srv/backup/monthly_save/project
